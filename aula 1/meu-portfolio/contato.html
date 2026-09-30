@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | João Paulo</title>
+</head>
+<body>
+    <header>
+    <h1>João Paulo Terziotti Silva</h1>
+    <h2>Desenvolvedor Web em formação.</h2>
+    </header>
+    <nav>
+    <ul>
+        <li>
+            <a href="index.html">Sobre Mim</a>
+        </li>
+        <li>
+            <a href="curriculo.html">Currículo</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+    </ul>
+    </nav>    
+        <main>
+        <section><h3>Fale Comigo</h3>
+        <form action="#" method="post">    
+        <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required minlength="3"><br>
+        <label for="email">Email</label>  
+        <input type="email" name="email" id="email" required><br>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone"><br>
+        <label for="data">Data de Nascimento</label>  
+        <input type="date" name="data" id="data">
+        </fieldset>
+        <fieldset>
+         <legend>Endereço</legend>
+         <label for="cep">CEP</label>
+         <input type="text" name="cep" id="cep" pattern="[0-9]{8}" required placeholder="Somente números" title="só pode usar números e são 8 dígitos números"><br>
+         <label for="rua">Rua</label>
+         <input type="text" name="rua" id="rua"><br>
+         <label for="number">Número</label>
+         <input type="number" name="number" id="number" min="1" max="99999"><br>
+         <label for="cidade">Cidade</label>
+         <input type="text" name="cidade" id="cidade"><br>
+         <label for="estado">Estado</label>
+         <select name="estado" id="estado">
+          <option value="1">Cambé</option>
+          <option value="2">Londrina</option>
+          <option value="3">Maringar</option>
+          <option value="4">Curitiba</option>
+          <option value="5">Cascavél</option>    
+         </select>                       
+        </fieldset>
+        <fieldset>
+        <legend>Interesse</legend>
+        <label for="area">Área de Interesse</label>
+        <select name="area" id="area" required>
+         <option value="1">Front-end</option>
+         <option value="2">Back-end</option>
+         <option value="3">Banco de Dados</option>
+         <option value="4">Full stack</option>
+        </select><br>
+        <label for="nivel">Nível de experiência</label>
+        <input type="radio" name="nivel" id="nivel">
+        <label for="nivel">Iniciante</label>
+        <input type="radio" name="nivel" id="nivel">
+        <label for="nivel">Intermediário</label>
+        <input type="radio" name="nivel" id="nivel">
+        <label for="nivel">Avançado</label><br>
+        <label for="mensagem">Mensagem</label><br>
+        <textarea name="mensagem" id="mensagem" rows="5" maxlength="500"></textarea><br>
+        <input type="checkbox" required>
+        <label for="termos">Li e aceito os termos de uso</label><br>
+        <button type="submit">Enviar</button>
+        </fieldset>
+        </form>    
+        </section>
+        </main>
+    <section>
+    <h3>Onde me encontrar</h3>
+    <a href="https://github.com/joaopaulo827" target="_blank">Meu GitHub</a>
+    <a href="mailto:joaopauloterziotti@gmail.com">Meu Email</a>
+    <a href="https://classroom.google.com/h/st">Site Mais Acessado</a>
+    </section>
+    <footer> <p>© 2026 João Paulo </p> <a href="mailto:joaopauloterziotti@gmail.com">Meu Email</a></footer>         
+</body>
+</html>
