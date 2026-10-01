@@ -1,0 +1,46 @@
+/*
+#272626 é a cor do fundo
+#ffffff é a cor do texto
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #272626;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 1rem;
+    line-height: 1.6;
+}
+h1{
+    font-family: 'Raleway';
+    font-size: 2.5rem;
+}
+h2{
+    font-family: 'Raleway';
+    font-size: 1.75rem;
+}
+h3{
+    font-family: 'Raleway';
+    font-size: 1.25rem;
+}
+header,footer{
+    padding: 24px;
+    color: white;    
+}
+main{
+    max-width:900px; 
+    margin: 0 auto;
+    padding: 16px;
+}
+nav{
+    text-decoration: none;
+    background-color: gray;
+    list-style: none;
+}
+.estado:hover{
+    background-color: blueviolet;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
